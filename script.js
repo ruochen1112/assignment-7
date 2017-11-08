@@ -41,6 +41,17 @@ function createbarchart() {
     .domain([0,d3.max(dataset, function(d) { return d.Count; })])
     .rangeRound([0,height]);
   
- 
+    g.append("g")
+      .attr("class", "axis axis--x")
+      .attr("transform", "translate(" + margin + "," + (height + margin) + ")")
+      .call(d3.axisTop(xScale));
+
+    g.append("g")
+      .attr("class", "axis axis--y")
+      .attr("transform", "translate(" + margin + "," + (height + margin) + ")")
+      .call(d3.axisLeft(yScale));
+
+
+
 };
 
