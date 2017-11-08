@@ -43,13 +43,21 @@ function createbarchart() {
   
     g.append("g")
       .attr("class", "axis axis--x")
-      .attr("transform", "translate(" + margin + "," + (height + margin) + ")")
       .call(d3.axisTop(xScale));
 
     g.append("g")
       .attr("class", "axis axis--y")
-      .attr("transform", "translate(" + margin + "," + (height + margin) + ")")
       .call(d3.axisLeft(yScale));
+
+    g.selectAll(".bar")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .attr("class","bar")
+    .attr("x", function(d) { return xScale(d.AGE); })
+    .attr("y", function(d) { return yScale(d.Count); })
+    .attr("width", xScale.bandwidth())
+    .attr("height", function(d) { return height-yScale(d.Count); })
 
 
 
