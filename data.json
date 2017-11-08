@@ -1,31 +1,33 @@
-{"Contact Type": "Contact_Type", "null": ["Count"], "AGE": "AGE", "CONTACT_CARD_ID": "CONTACT_CARD_ID", "RACE_CODE_CD": "RACE_CODE_CD"}
-{"Contact Type": "Investigatory Stop", "null": ["217"], "AGE": "52", "CONTACT_CARD_ID": "20092555", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["208"], "AGE": "51", "CONTACT_CARD_ID": "20094568", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Gang and Narcotics-Related Loitering", "null": ["756"], "AGE": "22", "CONTACT_CARD_ID": "20093032", "RACE_CODE_CD": "API"}
-{"Contact Type": "Investigatory Stop", "null": ["212"], "AGE": "54", "CONTACT_CARD_ID": "20114912", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["756"], "AGE": "22", "CONTACT_CARD_ID": "20097257", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["715"], "AGE": "21", "CONTACT_CARD_ID": "20097115", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["209"], "AGE": "46", "CONTACT_CARD_ID": "20090899", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["702"], "AGE": "19", "CONTACT_CARD_ID": "20111361", "RACE_CODE_CD": "WHT"}
-{"Contact Type": "Investigatory Stop", "null": ["465"], "AGE": "26", "CONTACT_CARD_ID": "20101410", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["756"], "AGE": "22", "CONTACT_CARD_ID": "20096401", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["209"], "AGE": "46", "CONTACT_CARD_ID": "20113802", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["365"], "AGE": "30", "CONTACT_CARD_ID": "20105354", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Gang and Narcotics-Related Loitering", "null": ["208"], "AGE": "51", "CONTACT_CARD_ID": "20117173", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["174"], "AGE": "41", "CONTACT_CARD_ID": "20113148", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["347"], "AGE": "31", "CONTACT_CARD_ID": "20099872", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["756"], "AGE": "22", "CONTACT_CARD_ID": "20095658", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["611"], "AGE": "24", "CONTACT_CARD_ID": "20113998", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["347"], "AGE": "31", "CONTACT_CARD_ID": "20100096", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["715"], "AGE": "20", "CONTACT_CARD_ID": "20111536", "RACE_CODE_CD": "WWH"}
-{"Contact Type": "Investigatory Stop", "null": ["429"], "AGE": "28", "CONTACT_CARD_ID": "20112240", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["702"], "AGE": "19", "CONTACT_CARD_ID": "20119607", "RACE_CODE_CD": "WHT"}
-{"Contact Type": "Investigatory Stop", "null": ["256"], "AGE": "35", "CONTACT_CARD_ID": "20117284", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["224"], "AGE": "53", "CONTACT_CARD_ID": "20110940", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["394"], "AGE": "29", "CONTACT_CARD_ID": "20112790", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["202"], "AGE": "38", "CONTACT_CARD_ID": "20103067", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["756"], "AGE": "22", "CONTACT_CARD_ID": "20099563", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["277"], "AGE": "36", "CONTACT_CARD_ID": "20100593", "RACE_CODE_CD": "WHT"}
-{"Contact Type": "Investigatory Stop", "null": ["205"], "AGE": "55", "CONTACT_CARD_ID": "20093213", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["277"], "AGE": "36", "CONTACT_CARD_ID": "20098738", "RACE_CODE_CD": "BLK"}
-{"Contact Type": "Investigatory Stop", "null": ["225"], "AGE": "39", "CONTACT_CARD_ID": "20098796", "RACE_CODE_CD": "WHT"}
+[
+{"Contact Type": "Investigatory Stop", "Count": "611", "AGE": "24", "CONTACT_CARD_ID": "0", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "715", "AGE": "21", "CONTACT_CARD_ID": "1", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "715", "AGE": "21", "CONTACT_CARD_ID": "1", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "347", "AGE": "31", "CONTACT_CARD_ID": "2", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "277", "AGE": "36", "CONTACT_CARD_ID": "3", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "766", "AGE": "18", "CONTACT_CARD_ID": "5", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "465", "AGE": "26", "CONTACT_CARD_ID": "6", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "278", "AGE": "37", "CONTACT_CARD_ID": "7", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "702", "AGE": "19", "CONTACT_CARD_ID": "8", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "756", "AGE": "22", "CONTACT_CARD_ID": "13", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "174", "AGE": "41", "CONTACT_CARD_ID": "14", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "230", "AGE": "44", "CONTACT_CARD_ID": "17", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "181", "AGE": "42", "CONTACT_CARD_ID": "19", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Gang and Narcotics-Related Loitering", "Count": "429", "AGE": "28", "CONTACT_CARD_ID": "20", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "225", "AGE": "39", "CONTACT_CARD_ID": "22", "RACE_CODE_CD": "API"},
+{"Contact Type": "Investigatory Stop", "Count": "394", "AGE": "29", "CONTACT_CARD_ID": "23", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "209", "AGE": "46", "CONTACT_CARD_ID": "24", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "625", "AGE": "25", "CONTACT_CARD_ID": "27", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "284", "AGE": "34", "CONTACT_CARD_ID": "29", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "256", "AGE": "35", "CONTACT_CARD_ID": "31", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "514", "AGE": "27", "CONTACT_CARD_ID": "37", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "219", "AGE": "40", "CONTACT_CARD_ID": "53", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Gang and Narcotics-Related Loitering", "Count": "700", "AGE": "23", "CONTACT_CARD_ID": "55", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "308", "AGE": "32", "CONTACT_CARD_ID": "60", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "365", "AGE": "30", "CONTACT_CARD_ID": "80", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "308", "AGE": "33", "CONTACT_CARD_ID": "90", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "715", "AGE": "20", "CONTACT_CARD_ID": "94", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Gang and Narcotics-Related Loitering", "Count": "210", "AGE": "47", "CONTACT_CARD_ID": "121", "RACE_CODE_CD": "BLK"},
+{"Contact Type": "Investigatory Stop", "Count": "196", "AGE": "45", "CONTACT_CARD_ID": "127", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "202", "AGE": "38", "CONTACT_CARD_ID": "149", "RACE_CODE_CD": "WWH"},
+{"Contact Type": "Investigatory Stop", "Count": "213", "AGE": "43", "CONTACT_CARD_ID": "154", "RACE_CODE_CD": "BLK"}
+]
