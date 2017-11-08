@@ -1,0 +1,25 @@
+
+
+h1,
+h2 {
+  font-family: Gotham;
+  text-indent: 50px;
+}
+
+svg {
+  background-color: #DADFFF;
+}
+
+.dot {
+	stroke: rgb(51,122,183);
+	stroke-width:1;
+	fill:rgba(51,122,183);
+}
+
+
+text.legendLabel {
+  font-size: 12pt;
+  font-family: Consolas, courier;
+  fill: #888;
+}
+
