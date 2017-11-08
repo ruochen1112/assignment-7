@@ -37,7 +37,9 @@ function createbarchart() {
     .rangeRound([0, width])
     .padding(0.1);
 
-
+    var yScale = d3.scaleLinear()
+    .domain([0,d3.max(dataset, function(d) { return d.Count; })])
+    .rangeRound([0,height]);
   
  
 };
