@@ -1,7 +1,6 @@
 
-div#title {
-			    margin: 10px auto 0;
-			    padding: 5px 20px;}
+div#title {	margin: 10px auto 0;
+			padding: 5px 20px;}
 
 h1 {
 	font-family: Georgia, serif;
@@ -41,6 +40,20 @@ p {font-size: .8em;
 	margin: .3em auto;}
 
 margin-right:2px;
+
+.legend {
+    font-size: 12px;
+  }
+  rect {
+    stroke-width: 2;}
+
+ .key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
 
 
 }

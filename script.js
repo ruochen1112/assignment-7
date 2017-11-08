@@ -66,7 +66,26 @@ function createbarchart() {
     .attr("width", xScale.bandwidth())
     .attr("height", function(d) { return height-yScale(d.Count); })
 
+    svg.append("text")             
+    .style("text-anchor", "middle")
+    .text("Age");
+
+    svg.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", margin/3)
+    .attr("x",0 - (height + margin)/2)
+    .style("text-anchor", "middle")
+    .text("Inflation");
+
+
+
+
+
+
+
+                     
 
 
 };
+
 
