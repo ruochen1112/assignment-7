@@ -53,7 +53,14 @@ function createbarchart() {
     .data(dataset)
     .enter()
     .append("rect")
-    .attr("class","bar")
+    .attr("class", function(d) {
+            if (d.Count > 400){
+                return "bar high";
+            } else {
+                return "bar low";
+            }
+
+        })
     .attr("x", function(d) { return xScale(d.AGE); })
     .attr("y", function(d) { return yScale(d.Count); })
     .attr("width", xScale.bandwidth())

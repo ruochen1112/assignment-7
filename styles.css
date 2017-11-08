@@ -25,7 +25,15 @@ svg {
 .axis--y path {
   display: none;
 }
+.bar.high {
+  fill: #a73540;
 
+}
+
+.bar.low {
+  fill: #abc6c3;
+
+}
 
 
 p {font-size: .8em;
