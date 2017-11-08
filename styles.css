@@ -18,6 +18,13 @@ h2 {
 svg {
   background-color: white;
 }
+.axis--x path {
+  display: none;
+}
+
+.axis--y path {
+  display: none;
+}
 
 
 
