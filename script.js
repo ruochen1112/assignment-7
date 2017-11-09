@@ -1,10 +1,9 @@
 
 
 
-var margin = {top: 20, right: 5, bottom: 0, left: 40}
-var width = 1100;
-var height = 500;
-
+var margin = {top: 30, right: 20, bottom: 50, left: 30}
+var width = 1000;
+var height = 400;
 
 
 
@@ -20,16 +19,15 @@ d3.json("data.json", function(error, data) {
 
 
 
-
 function createbarchart() {
 
     var svg = d3.select("#chart")
     .append("svg")
-    .attr("width", width - margin.left - margin.right)
-    .attr("height", height - margin.top - margin.bottom);
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
 
   var g = svg.append('g')
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + margin.left*2 + "," + margin.top*2 + ")");
 
 
      var xScale = d3.scaleBand()
@@ -54,7 +52,7 @@ function createbarchart() {
     .enter()
     .append("rect")
     .attr("class", function(d) {
-            if (d.Count > 400){
+            if (d.Count > 500){
                 return "bar high";
             } else {
                 return "bar low";
@@ -62,30 +60,60 @@ function createbarchart() {
 
         })
     .attr("x", function(d) { return xScale(d.AGE); })
-    .attr("y", function(d) { return yScale(d.Count); })
+    .attr("y", 0)
     .attr("width", xScale.bandwidth())
-    .attr("height", function(d) { return height-yScale(d.Count); })
+    .attr("height", function(d) { return yScale(d.Count); })
 
-    svg.append("text")             
+    svg.append("text")
+    .attr("class", "lableText")
+    .attr("y", 30)
+    .attr("x", 550)             
     .style("text-anchor", "middle")
     .text("Age");
 
     svg.append("text")
+    .attr("class", "lableText")
     .attr("transform", "rotate(-90)")
-    .attr("y", margin/3)
-    .attr("x",0 - (height + margin)/2)
+    .attr("y", 25)
+    .attr("x", -250)
     .style("text-anchor", "middle")
-    .text("Inflation");
+    .text("Number of Contacts");
+
+    g.selectAll(".dot")
+        .data(dataset)
+        .enter()
+        .append("circle")
+        .attr("class","dotone")
+        .attr("r",8)
+        .attr("cx", 810)
+        .attr('cy', 340)
+
+    g.selectAll(".dot")
+        .data(dataset)
+        .enter()
+        .append("circle")
+        .attr("class","dottwo")
+        .attr("r",8)
+        .attr("cx", 810)
+        .attr('cy', 365);
+
+
+    svg.append("text")
+    .attr("class", "legendText")
+    .attr("y", 405)
+    .attr("x", 900)             
+    .text("Higher than 500");
+
+    svg.append("text")
+    .attr("class", "legendText")
+    .attr("y", 430)
+    .attr("x", 900)             
+    .text("Lower and Equal to 500");
+     
 
 
 
-
-
-
-
-                     
-
-
+                    
 };
 
 
