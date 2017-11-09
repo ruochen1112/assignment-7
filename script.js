@@ -64,6 +64,8 @@ function createbarchart() {
     .attr("width", xScale.bandwidth())
     .attr("height", function(d) { return yScale(d.Count); })
 
+
+
     svg.append("text")
     .attr("class", "lableText")
     .attr("y", 30)
@@ -110,6 +112,16 @@ function createbarchart() {
     .attr("x", 900)             
     .text("Lower and Equal to 500");
      
+   svg.selectAll("text.bar")
+  .data(dataset)
+  .enter()
+  .append("text")
+  .attr("class", "textbar")
+  .attr("text-anchor", "start")
+  .attr("x", function(d) { return xScale(d.AGE)+65; })
+  .attr("y", function(d) { return yScale(d.Count) +45; })
+  .text(function(d) { return d.Count; });
+
 
 
 
