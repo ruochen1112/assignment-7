@@ -1,11 +1,11 @@
 
-.title {	width: 1050px;
+div#title {	width: 1050px;
 	        margin: 10px auto 0;
 			padding: 10px 20px;
 		}
 
 .subtitle {	width: 1200px;
-	        margin: 1px auto 0;
+	        margin: 10px auto 0;
 		}
 
 
